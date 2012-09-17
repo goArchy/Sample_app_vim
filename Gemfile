@@ -25,6 +25,8 @@ group :test do
    gem 'therubyracer', :platform => :mri
    gem 'therubyrhino', ">=1.73.3", :platform => :jruby
    gem 'factory_girl_rails', '1.4.0'
+   gem 'cucumber-rails', '1.2.1', :require => false
+   gem 'database_cleaner', '0.7.0'
 end
 
 group :production do
